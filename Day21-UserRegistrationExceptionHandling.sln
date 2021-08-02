@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day21-UserRegistrationExceptionHandling", "Day21-UserRegistrationExceptionHandling\Day21-UserRegistrationExceptionHandling.csproj", "{BF0937E2-2856-4B55-B617-AF813558A471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0937E2-2856-4B55-B617-AF813558A471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0937E2-2856-4B55-B617-AF813558A471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0937E2-2856-4B55-B617-AF813558A471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0937E2-2856-4B55-B617-AF813558A471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3D3C95C-9359-467B-B230-CE0AAE6FF564}
+	EndGlobalSection
+EndGlobal

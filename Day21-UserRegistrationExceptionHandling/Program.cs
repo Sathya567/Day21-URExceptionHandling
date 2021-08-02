@@ -17,7 +17,11 @@ namespace Day21_UserRegistrationExceptionHandling
             Console.WriteLine("Enter EmailID:");
             string emailId = Console.ReadLine();
             Console.WriteLine("EmailID:" + patternsMatch.ValidateEmailId(emailId));
+            Console.WriteLine("Enter Mobile Number:");
+            string mobileNumber = Console.ReadLine();
+            Console.WriteLine("Mobile Number:" + patternsMatch.ValidateMobileNumber(mobileNumber));
         }
+    }
     }
     
     

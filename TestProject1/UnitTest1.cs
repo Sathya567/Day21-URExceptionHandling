@@ -49,7 +49,21 @@ namespace TestProject1
 
             }
         }
+        [TestMethod]
+        public void GivenMobileNumber_ShouldThrow_UserRegistrationCustomException()
+        {
+            try
+            {
+                bool expected = true;
+                Assert.AreEqual(expected, patternsMatch.ValidateMobileNumber(null));
+            }
+            catch (UserRegistrationCustomException e)
+            {
+                Assert.AreEqual("Invalid Mobile Number", e.Message);
+            }
+        }
     }
 }
+
    
 

@@ -22,8 +22,9 @@ namespace Day21_UserRegistrationExceptionHandling
             Console.WriteLine("Mobile Number:" + patternsMatch.ValidateMobileNumber(mobileNumber));
         }
     }
-    }
-    
-    
-    
 }
+    
+    
+    
+    
+

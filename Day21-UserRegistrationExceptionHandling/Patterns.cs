@@ -12,7 +12,8 @@ namespace Day21_UserRegistrationExceptionHandling
         public static string REGEX_EMAILID = "^[0-9a-zA-Z]+[.+-_]{0,1}[0-9a-zA-Z]+[@][a-zA-Z]+[.][a-zA-Z]{2,3}([.][a-zA-Z]{2,3}){0,1}";
         public static string REGEX_MOBILENUMBER = "[0-9]{2}[ ]?[0-9]{10}$";
         //public static string REGEX_PASSWORD = "[A-Z]+.{8,}?"; rule2
-        public static string REGEX_PASSWORD = "^.{8,}?";
+        //public static string REGEX_PASSWORD = "^.{8,}?";       rule 3
+        public static string REGEX_PASSWORD = "^([a-zA-Z0-9])*[!@#$%^&*]{1}([a-zA-Z0-9])*$";
         public bool ValidateFirstName(string firstName)
         {
             if (firstName == null)
